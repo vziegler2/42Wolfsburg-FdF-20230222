@@ -6,7 +6,7 @@
 /*   By: vziegler <vziegler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/31 12:40:18 by vziegler          #+#    #+#             */
-/*   Updated: 2023/02/22 14:36:57 by vziegler         ###   ########.fr       */
+/*   Updated: 2023/02/22 15:30:32 by vziegler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,6 @@ void	ft_draw(t_fdf *data, double xw, double yw);
 void	ft_settings(t_fdf *data);
 void	ft_settings2(t_fdf *data, double zoom, double depth);
 void	ft_input(char *argv);
-int		ft_click(int key, t_fdf *data);
 void	ft_fill2(t_fdf *data, char **arr, char *ln, int fd);
 
 #endif

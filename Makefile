@@ -1,5 +1,5 @@
 SRCS	=	./Libft/Libft.a ./MiniLibX/libmlx.a
-SRCS_C	=	fdf.c ft_print_error.c ft_height.c ft_free_arr.c ft_close.c ft_put.c ft_dots.c ft_fill.c ft_escape.c ft_dots2.c ft_draw.c ft_settings.c ft_settings2.c ft_input.c ft_click.c ft_fill2.c
+SRCS_C	=	fdf.c ft_print_error.c ft_height.c ft_free_arr.c ft_close.c ft_put.c ft_dots.c ft_fill.c ft_escape.c ft_dots2.c ft_draw.c ft_settings.c ft_settings2.c ft_input.c ft_fill2.c
 # Hier alle zu kompilierenden Dateien erfassen
 OBJS_C	=	${SRCS_C:.c=.o}
 # Damit nur veränderte .c-Dateien in .o-Dateien kompiliert werden
